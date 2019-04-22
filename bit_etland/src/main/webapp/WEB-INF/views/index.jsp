@@ -13,41 +13,17 @@
 <!-- 홈메인 -->
 <!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="/web/resources/css/common.css" />
-	<!-- JS -->
-	<script type="text/javascript" src="/web/resources/js/homemain/jquery-1.12.3.js"></script>
-	<script type="text/javascript" src="/web/resources/js/homemain/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="/web/resources/js/homemain/jquery-ui.js"></script>
-	<script type="text/javascript" src="/web/resources/js/homemain/jquery.fullPage.js"></script>
-	<script type="text/javascript" src="/web/resources/js/homemain/jquery.bxslider.js"></script>
-	<script type="text/javascript" src="/web/resources/js/homemain/wow.js"></script>
-	<script type="text/javascript" src="/web/resources/js/homemain/common.js"></script>
-	<script type="text/javascript" src="/web/resources/js/homemain/login.js"></script>
-	<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+	
 </head>
 <body>
 <div class="wrapper fullpage">	
 	<a href="#"><h1 class="logo">MUPLUS</h1></a>
-	<!-- 로그인시작 -->
-	<div class="to-display">Login</div>
-	<div class="login-modal">
-  			<h3 class="brand-name">Draggable Login window</h3>
-  				<div class="input-field">
-      			<input type="email" class="id" placeholder="E-mail address / ID" >
-  				</div>
-  		<div class="input-field">
-    	<input type="password" class="password" placeholder="Password"></div>
-   			<a id="kakao-login-btn"></a>
-   			<button type="submit" class="btn btn-sky">Login</button>
-  
-   			<div class="close-sign">X</div>
- 		</div>
- 	<!-- 로그인끝a -->	
 	<!-- section1 -->
 	<div class="section fp-auto-height-responsive" id="section1">		
 		<div class="inner">
 			<p class="headline wow fadeInUp delay-02s">
-				<span class="font_RobotoThin">We create</span><br>
-				<span class="font_RobotoLight">experiences</span>
+				<span class="font_RobotoThin"></span><br>
+				<span class="font_RobotoLight"></span>
 			</p>
 		</div>
 		<video class="mainVideo" loop  muted data-autoplay> 
@@ -55,59 +31,6 @@
 		</video> 		
 	</div>
 	<!-- section1 -->
-	<!-- section2 -->
-	<div class="section fp-auto-height-responsive" id="section2">
-	    <div class="inner">
-			<ul class="infoArea wow fadeInUp delay-02s">
-				<li class="infoBox basic">
-					<h3>Who we are</h3>
-					<p>
-						<span class="textBr">Differentiated possibilities </span>
-						<span class="textBr">with its rich experience and </span>
-						<span class="textBr"><em class="fcR">customer-oriented mind.</em></span>
-					</p>
-					<span> 풍부한 경험, 고객중심의 마인드로 차별화된 가능성을 제시합니다.</span>
-				</li>
-				<li class="infoBox st01">
-					<h3>Who we are</h3>
-					<p>
-						<span class="textBr">Experienced development </span>
-						<span class="textBr">researchers provide the latest </span>
-						<span class="textBr">technology and high-quality </span>
-						<span class="textBr"><em class="fcR">development services.</em></span>
-					</p>
-					<span> 경험이 풍부한 개발 연구원들이 최신의 기술과 수준 높은 개발 서비스를 제공합니다.</span>
-				</li>
-				<li class="infoBox st02">
-					<h3>Who we are</h3>
-					<p>
-						<span class="textBr">UI designers stick to the basics, </span>
-						<span class="textBr">and the trend is reflected </span>
-						<span class="textBr">in the stylish UI to achieve </span>
-						<span class="textBr"><em class="fcR">customer satisfaction.</em></span>
-					</p>
-					<span> UI디자이너들은 기본기에 충실하며 트렌드가 반영된 세련된 UI로 고객만족을 실현합니다.</span>
-				</li>
-				<li class="infoBox st03">
-					<h3>Who we are</h3>
-					<p>
-						<span class="textBr">User-centered design and </span>
-						<span class="textBr">creative thinking present </span>
-						<span class="textBr"><em class="fcR">innovative UX directions.</em></span>
-					</p>
-					<span> 사용자 중심의 디자인과 창의적인 사고로 혁신적인 방향을 제시합니다.</span>
-				</li>
-			</ul>
-			<div class="logoArea wow fadeInUp delay-03s">
-				<div class="logoBox">
-					<a href="#none" class="logoLink st01">1</a>
-					<a href="#none" class="logoLink st02">2</a>
-					<a href="#none" class="logoLink st03">3</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- section2 -->
 	<!-- section3 -->
 	<div class="section fp-auto-height-responsive" id="section3">
 		<div class="inner wide">
@@ -123,7 +46,7 @@
 							모바일 웹 개발, 모바일 표준화<br>
 							OS별 모바일 어플리케이션
 						</p>
-						<a href="/new/work/work_list.asp" class="worksLink">Works 바로가기</a>
+						<a href="#" class="worksLink" id="ocean">Works 바로가기</a>
 					</div>
 					<div class="maskBg"></div>					
 					<div class="videoArea">						
@@ -145,7 +68,7 @@
 							UML<br>
 							UI Developer
 						</p>
-						<a href="/new/work/work_list.asp" class="worksLink">Works 바로가기</a>
+						<a href="#"class="worksLink">Works 바로가기</a>
 					</div>
 					<div class="maskBg"></div>
 					<div class="videoArea">						
@@ -187,22 +110,19 @@
 	<div class="section fp-auto-height-responsive" id="section4">
 	    <div class="inner">
 			<p class="af01 wow fadeInDown delay-02s">
-				<span class="textBr">How we work ?</span>
-				<span class="textBr">Strategic Thinking. </span>
-				<span class="textBr">Compelling Design.</span>
+				go fishbowl
 			</p>
 			<div class="imgBox wow fadeInRight delay-06s">
-				<img class="img03_pc" src="/web/resources/img/homeimg/main/ovject03.png">
-				<img class="img03_mobile" src="/web/resources/img/homeimg/main/ovject03_mobile.png">
+				<img class="img03_pc" src="">
+				<img class="img03_mobile" src="">
 			</div>
 			<p class="af02 wow fadeInUp delay-03s">
-				<span class="textBr">We combine digital strategy, </span>
-				<span class="textBr"><em class="fcR">UX and design</em> to help clients </span>
-				<span class="textBr">think beyond ordinary.</span>
+				<span class="textBr"></span>
+				<span class="textBr"></span>
 			</p>
 		</div>
 		<video class="mainVideo" loop muted data-autoplay>
-			<source src="../resource/video/section04.mp4" type="video/mp4">
+			<source src="/web/resources/video/aquarium.mp4" type="video/mp4">
 		</video> 
 	</div>
 	<!-- section4 -->
@@ -218,23 +138,6 @@
 						<span class="textBr"><em class="fcR">partners</em></span>
 					</p>
 				</div>
-				<ul class="partnerList wow fadeInUp delay-03s">
-					<li><img src="/web/resources/img/homeimg/main/clients/sk.png"></li>
-					<li><img src="/web/resources/img/homeimg/main/clients/sk_telecom.png"></li>
-					<li><img src="/web/resources/img/homeimg/main/clients/sk_planet.png"></li>
-					<li><img src="/web/resources/img/homeimg/main/clients/sk_cc.png"></li>
-					<li><img src="/web/resources/img/homeimg/main/clients/sk_broadband.png"></li>
-					<li><img src="/web/resources/img/homeimg/main/clients/sk_networks.png"></li>
-					<li><img src="/web/resources/img/homeimg/main/clients/sk_infoce.png"></li>
-					<li><img src="/web/resources/img/homeimg/main/clients/kt.png"></li>
-					<li><img src="/web/resources/img/homeimg/main/clients/kt_ds.png"></li>
-					<li><img src="/web/resources/img/homeimg/main/clients/kt_협력사포탈.png"></li>
-					<li><img src="/web/resources/img/homeimg/main/clients/서울시청.png"></li>
-					<li><img src="/web/resources/img/homeimg/main/clients/한화.png"></li>
-					<li><img src="/web/resources/img/homeimg/main/clients/동하산업.png"></li>
-					<li><img src="/web/resources/img/homeimg/main/clients/카파.png"></li>
-					<li><img src="/web/resources/img/homeimg/main/clients/현대오일뱅크.png"></li>
-				</ul>				
 			</div>
 		</div>
 	</div>
@@ -272,56 +175,18 @@
 	<!-- section6 -->
 </div>
 <!-- #fullpage -->
-<script>
-	if (navigator.userAgent.match(/iPhone|iPad|iPod/i)) {		
-		hypeDocument.showSceneNamed('IOS Video', hypeDocument.kSceneTransitionInstant);		
-	}
-	else {
-	// continue with this scene.
-	}
+<!-- JS -->
+<script type="text/javascript" src="/web/resources/js/homemain/jquery.fullPage.js"></script>
+<script type="text/javascript" src="/web/resources/js/homemain/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/web/resources/js/homemain/jquery.bxslider.js"></script>
+<script type="text/javascript" src="/web/resources/js/homemain/wow.js"></script>
+<script type="text/javascript" src="/web/resources/js/homemain/common.js"></script>
+<script type="text/javascript" src="/web/resources/js/component/compo.js"></script>
+<script type="text/javascript" src="/web/resources/js/app.js"></script>
+<script type="text/javascript" src="/web/resources/js/router.js"></script>
 
-
-		$(document).ready(function() {			
-			//전체화면
-			$('.fullpage').fullpage({
-				navigation: true,
-				navigationPosition: 'left',
-				autoScrolling:false,
-				responsiveWidth: 768
-			});			
-			// section 02
-			$('.logoLink.st01').mouseenter(function() {
-				$(".infoBox.basic").hide();
-				$(".infoBox.st01").fadeIn();
-				$("#section2").addClass("on");
-			});		
-			$('.logoLink.st01').mouseleave(function() {
-				$(".infoBox.basic").fadeIn();
-				$(".infoBox.st01").hide();
-				$("#section2").removeClass("on");
-			});
-			$('.logoLink.st02').mouseenter(function() {
-				$(".infoBox.basic").hide();
-				$(".infoBox.st02").fadeIn();
-				$("#section2").addClass("on");
-			});		
-			$('.logoLink.st02').mouseleave(function() {
-				$(".infoBox.basic").fadeIn();
-				$(".infoBox.st02").hide();
-				$("#section2").removeClass("on");
-			});
-			$('.logoLink.st03').mouseenter(function() {
-				$(".infoBox.basic").hide();
-				$(".infoBox.st03").fadeIn();
-				$("#section2").addClass("on");
-			});		
-			$('.logoLink.st03').mouseleave(function() {
-				$(".infoBox.basic").fadeIn();
-				$(".infoBox.st03").hide();
-				$("#section2").removeClass("on");
-			});	
-
-		});
+	<script>
+	app.init('<%= application.getContextPath() %>');
 	</script>
 </body>
 </html>
